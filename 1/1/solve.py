@@ -1,5 +1,5 @@
 def main():
-    with open('input.txt') as f:
+    with open('../input.txt') as f:
         lines = f.readlines()
         prev = 99999999999999999999
         count = 0
